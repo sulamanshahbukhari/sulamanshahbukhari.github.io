@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/notonastaliqurdu.css);
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Tajawal&display=swap');
+html,body
+{
+    margin: 0px;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+  .font_arabic{
+    font-family: 'Tajawal', sans-serif;
+  }
+  .font_urdu{
+    font-family: 'Noto Nastaliq Urdu', serif;
+  }
+  .font_fancy{
+    font-family: 'Sacramento', cursive;
+  }
+  .font_poppin_regular
+  {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+  }
+  .font_poppin_bold
+  {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+  .navbar{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+  .home_background{
+    background-image: url(/media/SVG/Radiant-Gradient.svg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  .bg-portfolioimage{
+    background-image: url(/media/SVG/Sun-Tornado.svg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  /* animated svg height */
+  #webdev svg{
+   height: auto !important;
+  }
+  #astronaut svg{
+    width: 50% !important;
+    height: auto !important;
+   }
+   .contact_Background{
+    background-image: url(/media/SVG/Endless-Constellation.svg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  .intro_blob_background{
+    background-image: url(/media/SVG/blob-haikei.svg);
+    width: 40%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  .intro_wave_background-right{
+    background-image: url(/media/SVG/wave-haikei\ -right-verticle.svg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  .intro_wave_background-top{
+    background-image: url(/media/SVG/wave-haikei-top-horizontal.svg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  /* card hover effect */
+  .card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+ 
+}
+.nav-item:hover{
+  border-radius: 38px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  7px 7px 14px #d1d1d1,
+             -7px -7px 14px #ffffff;
+}
