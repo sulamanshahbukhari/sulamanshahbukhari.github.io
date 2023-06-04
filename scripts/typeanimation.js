@@ -1,6 +1,7 @@
 
 if (window.location.hash=='#arabic')
 {
+    location.reload();
     var typed = new Typed('.animateintro', {
         strings:[
             "مطور",
@@ -19,6 +20,7 @@ if (window.location.hash=='#arabic')
 }
 else if (window.location.hash=='#german')
 {
+    location.reload();
     var typed = new Typed('.animateintro', {
         strings:[
         "Entwickler",
