@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- <script src="jquery-3.5.1.min.js"></script> -->
+    <script>
+        function handleReloadClick(){
+       
+        window.scrollTo({top:0, behavior:'smooth'});
+          setTimeout(() => {
+            location.reload();
+          }, 400);
+        }
+    </script>
 </head>
 
 <body>
@@ -91,7 +100,7 @@
 <section  id ='about' class=" min-vh-100">
   <div class="row  mb-3 justify-content-lg-center ">
     <!-- About  heading row -->
-      <div class="row m-lg-4 ">
+      <div class="row m-lg-4 mt-lg-5">
           <div  class="col mx-auto my-auto border-dark">
               <h1 class=" text-center  mb-lg-2 font_poppin_regular mt-3" id="about-heading" > About Me </h1>
           </div> 
@@ -104,7 +113,7 @@
   <div class=" offset-1 col-lg-4">
     <p class="font_poppin_regular justify" id="about-intro" >
       Hi! im Sulaman Shah <br>
-      <b> Software Engineer | frontend React JS developer</b>
+      <b> Software Engineer | frontend developer</b>
       <br>
       <br>
       I have done my bachelors in software engineering from Riphah International University
@@ -113,36 +122,101 @@
       <br>My Tech Stack: 🚀 : <br> <b>
 
         TypeScript | JavaScript | React | Redux Tk | JQuery | MUI | Tailwind | Bootstrap | CSS3 | Node JS | MongoDb | AWS | Docker | Shopify</b>
-      <br>Im looking forward to hear from you soon 
+      <br>
+      <br>
+
+      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="VERTICAL" data-vanity="sulaman-shah-396bb9132" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sulaman-shah-396bb9132?trk=profile-badge">Connect with me on linked In</a></div>
+      <!-- Im looking forward to hear from you soon  -->
     </p>
-   
+    
+    
   </div>
 </div>
 
 </section>
 <!-- portfolio highlights -->
 <section id="portfolio" class="pt-2  min-vh-100"  >
-    <div class="row  mb-3 justify-content-lg-center ">
-      <!-- portfolio heading row -->
-        <div class="row m-lg-4 ">
-            <div  class="col mx-auto my-auto border-dark">
-                <h1 class=" text-center  mb-lg-3  font_poppin_regular " id="porfolio-heading" > Portfolio </h1>
+  <div class="row m-lg-4 mt-lg-5 ">
+    <div  class="col mx-auto my-auto border-dark">
+        <h1 class=" text-center  mb-lg-3  font_poppin_regular " id="porfolio-heading" > Portfolio </h1>
+    </div>
+    
+</div>
+<div class="row  mb-3 justify-content-lg-center mb-4">
+  <!-- portfolio heading row -->
+    
+    <!-- protfolio columns -->
+    
+    <div class="col-sm-12 col-lg-3">
+        <a href="https://navigatecommodities.com/" target="_blank" class=" text-decoration-none text-dark">
+            <div class=" card shadow-lg rounded ">
+                <div class=" card-header">
+                    <h5 class=" card-title font_poppin_regular font-bold">Navigate Commodoties</h5>
+                </div>
+                <div class=" card-body">
+                   <img src="https://navigatecommodities.com/static/media/Navigate_Commodities_logo_final-3484px.5b48254de2f17d8a25d0.png" width="300px" height="300px" alt="logo" class=" card-img">
+                </div>
+                <div class=" card-footer">
+                    <p class=" card-subtitle font_poppin_regular"> TECH: React Js | JS | Bootstrap 4 | Rest Apis</p>
+                </div>
             </div>
-            
-        </div>
+        </a>
+        
+
+    </div>
+    <div class="col-sm-12 col-lg-3 ">
+      <a href="https://shipntrack.app/" target="_blank" class=" text-decoration-none text-dark">
+          <div class=" card shadow-lg rounded">
+              <div class=" card-header">
+                  <h5 class=" card-title font_poppin_regular font-bold">ShipNTracK (shopify store automation)</h5>
+              </div>
+              <div class=" card-body">
+                 <img src="https://shipntrack.app/assets/images/order-dispatching-login.png" width="300px" height="300px" alt="" class=" card-img">
+              </div>
+              <div class=" card-footer">
+                  <p class=" card-subtitle font_poppin_regular">TECH: React Js | TypeScript |Redux Tk| MUI|Bootstrap 4 | Rest Apis</p>
+              </div>
+          </div>
+      </a>
+      
+
+  </div>
+    <div class="col-sm-12 col-lg-3">
+        <a href="https://daftarpro.com/" target="_blank" class=" text-decoration-none text-dark">
+            <div class=" card shadow-lg rounded ">
+                <div class=" card-header">
+                    <h5 class=" card-title font_poppin_regular font-bold">DaftarPro (Hr & Finance MS)</h5>
+                </div>
+                <div class=" card-body">
+                   <img src="https://daftarpro.com/static/media/Dashboard_Img.b6c54adca81fdc0306f44a270ad66f0a.svg" width ="300px"  height="300px" alt="" class=" card-img">
+                </div>
+                <div class=" card-footer">
+                    <p class=" card-subtitle font_poppin_regular">TECH: React Js | JS |Redux Tk| Bootstrap 4 |AntD | Rest Apis</p>
+                </div>
+            </div>
+        </a>
+        
+
+    </div>
+   
+</div>
+    <div class="row  mt-3 justify-content-lg-center  ">
+      <!-- portfolio heading row -->
+        
         <!-- protfolio columns -->
         
+        
         <div class="col-sm-12 col-lg-3">
-            <a href="#" target="_blank" class=" text-decoration-none text-dark">
+            <a href="https://centurionanesthesia.com/" target="_blank" class=" text-decoration-none text-dark">
                 <div class=" card shadow-lg rounded ">
                     <div class=" card-header">
-                        <h3 class=" card-title font_poppin_regular">Epsilon Buisness & Invoice management system </h3>
+                        <h5 class=" card-title font_poppin_regular font-bold">Centurion Anesthesia</h5>
                     </div>
                     <div class=" card-body">
-                       <img src="./media/Images/invoicems.png" alt="" class=" card-img">
+                       <img src="./media/Images/webportfolio/centurion.jpg"  width="300px" height="300px" alt="" class=" card-img">
                     </div>
                     <div class=" card-footer">
-                        <p class=" card-subtitle font_poppin_regular">Asp.net c# core Html5/Css3/Jquery/bootstrap4/MVC</p>
+                        <p class=" card-subtitle font_poppin_regular">Css3,Scss,javascript</p>
                     </div>
                 </div>
             </a>
@@ -150,40 +224,41 @@
     
         </div>
         <div class="col-sm-12 col-lg-3">
-            <a href="#" class=" text-decoration-none text-dark">
-                <div class=" card shadow-lg rounded ">
-                    <div class=" card-header">
-                        <h3 class=" card-title font_poppin_regular">Centurion Anesthesia</h3>
-                    </div>
-                    <div class=" card-body">
-                       <img src="./media/Images/webportfolio/centurion.jpg" alt="" class=" card-img">
-                    </div>
-                    <div class=" card-footer">
-                        <p class=" card-subtitle font_poppin_regular">Html5,Css3,Scss,javascript</p>
-                    </div>
-                </div>
-            </a>
-            
-    
-        </div>
-        <div class="col-sm-12 col-lg-3">
-            <a href="#" class=" text-decoration-none text-dark">
+            <a href="https://fieldgateproperties.com/" target="_blank" class=" text-decoration-none text-dark">
                 <div class=" card shadow-lg rounded">
                     <div class=" card-header">
-                        <h3 class=" card-title font_poppin_regular">Fields gates Properties</h3>
+                        <h5 class=" card-title font_poppin_regular font-bold">Fields gates Properties</h5>
                     </div>
                     <div class=" card-body">
-                       <img src="./media/Images/webportfolio/fieldgatesproperties-min.jpg" alt="" class=" card-img">
+                       <img src="./media/Images/webportfolio/fieldgatesproperties-min.jpg" width="300px" height="300px" alt="" class=" card-img">
                     </div>
                     <div class=" card-footer">
-                        <p class=" card-subtitle font_poppin_regular">tml5/Css3/Jquery/bootstrap4/Javascript</p>
+                        <p class=" card-subtitle font_poppin_regular">Css3/Jquery/bootstrap4/Javascript</p>
                     </div>
                 </div>
             </a>
             
     
         </div>
+        <div class="col-sm-12 col-lg-3">
+          <a href="#" target="_blank" class=" text-decoration-none text-dark">
+              <div class=" card shadow-lg rounded ">
+                  <div class=" card-header">
+                      <h5 class=" card-title font_poppin_regular font-bold">Epsilon Buisness & Invoice management system </h5>
+                  </div>
+                  <div class=" card-body">
+                     <img src="./media/Images/invoicems.png" width="300px" height="300px" alt="" class=" card-img">
+                  </div>
+                  <div class=" card-footer">
+                      <p class=" card-subtitle font_poppin_regular">Asp.net c# core/Css3/Jquery/bootstrap4/MVC</p>
+                  </div>
+              </div>
+          </a>
+          
+  
+      </div>
     </div>
+  
     <!-- view more -->
     <!-- <div class="row mb-5">
         <div class="col text-center">
@@ -333,6 +408,10 @@
       </div>
     </div>
   </footer>
+  
+  
+        
+        
     <!-- bootstrap javascript links -->
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script> -->
@@ -353,13 +432,7 @@
         <!-- main app -->
         <script src="./scripts/app.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script>
-  function handleReloadClick(){
-  
-    setTimeout(() => {
-      location.reload();
-    }, 1000);
-  }
-</script>
+        <!-- <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script> -->
+
       </body>
 </html>
