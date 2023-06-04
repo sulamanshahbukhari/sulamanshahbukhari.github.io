@@ -11,7 +11,7 @@ window.onload = function(){
            welcome:"Hallo, ich bin Sulaman",
            introduction:"ich bin ",
            aboutme:'Über mich',
-           aboutintro:'Hi! Ich bin Sulaman Shah  Software-Ingenieur | Frontend React JS-Entwickler  Ich habe meinen Bachelor in Software Engineering an der Riphah International University gemacht und habe mehr als ein Jahr Branchenerfahrung in der Frontend-Webentwicklung Mein Tech-Stack beinhaltet: Reagieren Sie js, Redux, Javascript, Jquery, Css3, Html5, bootstrap4/5, Material Ui, Rückenwind CSS Ich freue mich darauf, bald von Ihnen zu hören'
+           aboutintro:'Hi! Ich bin Sulaman Shah  Software-Ingenieur | Frontend React JS-Entwickler  Ich habe meinen Bachelor in Software Engineering an der Riphah International University gemacht und habe mehr als ein Jahr Branchenerfahrung in der Frontend-Webentwicklung Mein Tech-Stack beinhaltet: TypeScript | JavaScript | React | Redux Tk | JQuery | MUI | Tailwind | Bootstrap | CSS3 | Node JS | MongoDb | AWS | Docker | Shopify Ich freue mich darauf, bald von Ihnen zu hören'
        },
        arabic:{
            welcome:"مرحبا انا سليمان",
